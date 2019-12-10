@@ -1,0 +1,59 @@
+/*
+ Theme Name:   Berkeley Brand Child
+ Description:  Berkeley Brand Child theme for freespeech.berkeley.edu
+ Author:       Leta Negandhi
+ Author URI:   https://freespeech.berkeley.edu
+ Template:     berkeley_brand
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  berkeley_brand
+*/
+
+/*changes from components.css*/
+header.entry-header	.category {		
+	font-size: 12px;		
+    text-transform: uppercase;		
+    letter-spacing: 1px;		
+    font-weight: 700;		
+    font-family: 'Open Sans', sans-serif;		
+    margin-top: 0;			
+}
+
+.block.promo .caption blockquote footer {		 			
+	color: #000;			
+}
+
+.block.profile .caption blockquote footer {					
+	color: #000;		
+}
+
+.block.quote blockquote {
+	color: #fff;			color: #C4820E;
+}
+
+.block.quote.solid-background blockquote .quotename {		
+    color: #000;		    
+}
+
+div.block.quote.solid-background.web-gray div.caption blockquote {	
+        color:#fff;				
+}		}
+div.block.quote.solid-background.web-founders-rock div.caption blockquote {		
+        color:#fff;				
+}		
+div.block.quote.solid-background.web-lap-lane div.caption blockquote {		
+        color:#fff;		
+}		
+div.block.quote.solid-background.wellman-tile div.caption blockquote {		
+        color:#fff;		
+}		
+div.block.quote.solid-background.rose-garden div.caption blockquote {		
+        color:#fff;		
+}		
+div.block.quote.solid-background.web-soybean div.caption blockquote {		
+        color:#fff;		
+}		
+div.block.quote.solid-background.web-medalist div.caption blockquote {		
+        color:#fff;		
+}		
