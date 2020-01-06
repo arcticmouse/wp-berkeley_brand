@@ -1,13 +1,10 @@
 /*
  Theme Name:   Berkeley Brand Child
  Description:  Berkeley Brand Child theme for freespeech.berkeley.edu
- Author:       Leta Negandhi
- Author URI:   https://freespeech.berkeley.edu
+ Author:       University of California, Berkeley Public Affairs and Communications
+ Author URI:   https://berkeley.edu
  Template:     berkeley_brand
- Version:      1.0.0
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Text Domain:  berkeley_brand
+ Text Domain:  berkeley_brandchild
 */
 
 /*changes from components.css*/
@@ -57,3 +54,26 @@ div.block.quote.solid-background.web-soybean div.caption blockquote {
 div.block.quote.solid-background.web-medalist div.caption blockquote {		
         color:#fff;		
 }		
+#dept-footer #footer-sidebar-2 .jetpack-social-widget-item svg { color: #ffffff; }
+#dept-footer #footer-sidebar-2 .jetpack-social-widget-item svg:hover { color: #829db5; }
+.jetpack_widget_social_icons ul.size-small li:first-child a { margin-left: -2px; }
+.entry-content p.lead {
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 1.75;
+}
+
+@media (min-width: 768px) {
+    .entry-content p.lead {
+        font-size: 28px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 1200px) {
+    .entry-content p.lead {
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+}
