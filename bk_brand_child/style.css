@@ -1,0 +1,204 @@
+/*
+ Theme Name:   Berkeley Brand Child
+ Description:  Berkeley Brand Child theme for brand.berkeley.edu
+ Author:       University of California, Berkeley Public Affairs and Communications
+ Author URI:   https://berkeley.edu
+ Template:     berkeley_brand
+ Text Domain:  berkeley_brandchild
+*/
+
+/* Custom css for this site */
+
+.thumb-berkeley-blue {
+    width: 175px; 
+    height: 175px; 
+    background: #003262;
+}
+.thumb-founders-rock {
+    width: 175px; 
+    height: 175px; 
+    background: #3B7EA1;
+}
+.thumb-california-gold {
+    width: 175px; 
+    height: 175px; 
+    background: #fdb515;
+}
+.thumb-medalist {
+    width: 175px; 
+    height: 175px; 
+    background: #C4820E;
+}
+.thumb-wellman-tile {
+    width: 175px; 
+    height: 175px; 
+    background: #d9661f;
+}
+.thumb-rose-garden {
+    width: 175px; 
+    height: 175px; 
+    background: #ee1f60;
+}
+.thumb-golden-gate {
+    width: 175px; 
+    height: 175px; 
+    background: #ed4e33;
+}
+.thumb-south-hall {
+    width: 175px; 
+    height: 175px; 
+    background: #6c3302;
+}
+.thumb-bay-fog {
+    width: 175px; 
+    height: 175px; 
+    background: #DDD5C7;
+}
+.thumb-lawrence {
+    width: 175px; 
+    height: 175px; 
+    background: #00b0da;
+}
+.thumb-lap-lane {
+    width: 175px; 
+    height: 175px; 
+    background: #00a598;/* #00b2a5; */
+}
+.thumb-pacific {
+    width: 175px; 
+    height: 175px; 
+    background: #46535E;
+}
+.thumb-sather-gate {
+    width: 175px; 
+    height: 175px; 
+    background: #b9d3b6;
+}
+.thumb-ion {
+    width: 175px; 
+    height: 175px; 
+    background: #cfdd45;
+}
+.thumb-soy-bean {
+    width: 175px; 
+    height: 175px; 
+    background: #859438;
+}
+.thumb-stone-pine {
+    width: 175px; 
+    height: 175px; 
+    background: #584f29;
+}
+.thumb-background-gray {
+    width: 175px; 
+    height: 175px; 
+    background: #EEEEEE;
+}
+.thumb-web-gray {
+    width: 175px; 
+    height: 175px; 
+    background: #888888;
+}
+.thumb-white {
+    width: 175px; 
+    height: 175px; 
+    background: #ffffff;
+}
+.thumb-black {
+    width: 175px; 
+    height: 175px; 
+    background: #000000;
+}
+
+.entry-content p.lead {
+    margin-bottom: 30px;
+    font-size: 21px;
+    line-height: 1.75;
+}
+
+@media (min-width: 768px) {
+    .entry-content p.lead {
+        font-size: 28px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 1200px) {
+    .entry-content p.lead {
+        font-size: 32px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+}
+
+/* ========= font icons =========== */
+div .row .social-directory {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+table.social-directory.table > tbody > tr > td, table.social-directory.table > tbody > tr > th, .social-directory div, .social-directory div a  {
+    font-size: 15px;
+    color: #000000;
+    font-weight:400;
+}
+.social-directory div a {
+    padding-right: 15px;
+}
+
+/* ========= IMG size changed to auto ======= */
+img[class*="align"] {
+    width: auto;
+}
+td img[class="sm-icons"] {
+    width: 20px;
+    height: 20px;
+}
+/* contact page */
+/* circular crop for background images */
+.circular {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px;
+    float: left;
+    height: 60px;
+    margin-right: 5px;
+    width: 60px;
+}
+div.contact-grid div.sandwich.pbsandwich_column {
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+/* popup */
+div.pum-container.popmake {
+    background-color: #eeeeee;
+}
+.pum-theme-857 .pum-title, .pum-theme-default-theme .pum-title {
+    padding-bottom:15px;
+}
+/* color */
+.color-palettes p {
+    font-size:15px;
+}
+/* platform */
+.platform-images {
+     margin-top: 20px;
+}
+
+/*footer*/
+footer#universal-footer p.contact-link a {
+    color:#fff;
+    text-decoration:none;
+}
+footer#universal-footer p.contact-link a:hover { text-decoration: underline; }
+/* accordion title */
+.sandwich .toggle .panel-body a {
+    font-weight: 600;
+}
+/* extra widget row */
+#herowidgets-sidebar-4 {
+    padding-left: 0px;
+    padding-right: 0px;     
+}
+#hero-widgets-container #herowidgets-sidebar-4 {
+    margin: 0 -15px 0 -15px;
+}
