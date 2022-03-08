@@ -1,0 +1,12 @@
+/*
+ Theme Name:   Berkeley Visitor Child
+ Description:  Berkeley Brand Child theme for visit.berkeley.edu
+ Author:       University of California, Berkeley Public Affairs and Communications
+ Author URI:   https://berkeley.edu
+ Template:     berkeley_brand
+ Text Domain:  berkeley_brandchild
+*/
+
+.textwidget.custom-html-widget ul.jetpack-social-widget-list li.social-share { display: inline; }
+.textwidget.custom-html-widget ul.jetpack-social-widget-list li.social-share a { fill: #ffffff; }
+.textwidget.custom-html-widget ul.jetpack-social-widget-list li.social-share a svg.icon { max-width: 18px; max-height: 18px; }
